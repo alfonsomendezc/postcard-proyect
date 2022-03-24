@@ -1,0 +1,59 @@
+body {
+	background: black;
+	font-family: "Courier Prime", monospace;
+	font-family: "Poppins", sans-serif;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 10px;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-body {
+	display: flex;
+}
+.postcard-footer {
+	text-align: center;
+}
+body img {
+	height: 50px;
+	width: 50px;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+h1,
+.postcard-header {
+	width: 100%;
+	margin: 0px;
+}
+.body-left {
+	padding: 5px;
+	font-size: 14.5px;
+}
+.body-right {
+	padding-top: 10px;
+	margin-right: 5px;
+	font-size: 14;
+}
+.body-right input {
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid;
+	font-size: 13px;
+	font-family: "Courier Prime", monospace;
+	font-family: "Poppins", sans-serif;
+}
+.body-left:first-child {
+	margin-top: 0px;
+}
+button {
+	background-color: rgb(201, 199, 199);
+	padding: 5px 10px;
+	font-size: 14;
+	font-family: "Courier Prime", monospace;
+	font-family: "Poppins", sans-serif;
+}
